@@ -600,14 +600,14 @@ Author URI: http://theshahriyar.com
 
 
 .news-post-style-3 {
-    padding-top: 10px;
     padding-bottom: 10px;
+    margin-bottom: 10px;
     border-bottom: 1px solid #f0f0f0;
     display: flex;
     img {
         width: 100px;
+        height: 86px;
         margin-right: 20px;
-        //float: left;
     }
 
     .post-details {
@@ -701,7 +701,8 @@ Author URI: http://theshahriyar.com
     padding-bottom: 10px;
     display: flex;
     img {
-        width: 90px;
+        width: 107px;
+        height: 92px;
         margin-right: 15px;
         //float: left;
     }
@@ -773,7 +774,7 @@ Author URI: http://theshahriyar.com
 
 	.post-tags {
 		display: flex;
-		margin-bottom: 20px;
+		margin-bottom: 10px;
 
 		li {
 		    margin-right: 10px;
@@ -790,6 +791,12 @@ Author URI: http://theshahriyar.com
 	    	    	color: $brand-primary;
 	    	    }
 		    }
+		}
+	}
+
+	&.small-img {
+		img {
+			width: 200px;
 		}
 	}
 }
@@ -815,7 +822,7 @@ Author URI: http://theshahriyar.com
 
 
 
-.post-right-tab {
+.post-bottom-tab {
 	background: #222;
 	padding: 20px;
 
@@ -834,6 +841,86 @@ Author URI: http://theshahriyar.com
 			font-size: 20px;
 		}
 	}
+}
+
+.post-right-tab {
+	//display: flex;
+}
+
+.slider-caption-box2 {
+  background: #222222;
+  overflow: hidden;
+  padding: 0;
+}
+.slider-caption-box2 div.slider-holder {
+  width: 730px !important;
+  float: left;
+}
+.slider-caption-box2 div.slider-holder .news-post iframe {
+  width: 100%;
+  height: 440px;
+  margin-bottom: -5px !important;
+}
+.slider-caption-box2 .bx-wrapper .bx-next,
+.slider-caption-box2 .bx-wrapper .bx-prev {
+  display: none;
+}
+.slider-caption-box2 #bx-pager {
+  width: 380px;
+  float: right;
+  position: relative;
+  z-index: 2;
+  padding: 0;
+}
+.slider-caption-box2 #bx-pager a {
+  display: inline-block;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  display: block;
+  padding: 0px;
+  padding-top: 10px;
+  color: #cccccc;
+  font-size: 13px;
+  font-family: 'Lato', sans-serif;
+  font-weight: 700;
+  margin: 0;
+  position: relative;
+  line-height: 18px;
+  overflow: hidden;
+}
+.slider-caption-box2 #bx-pager a img {
+  float: left;
+  margin-right: 20px;
+  opacity: 0.5;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  margin-top: -10px;
+}
+.slider-caption-box2 #bx-pager a span {
+  display: block;
+  font-style: italic;
+  font-size: 12px;
+  color: #999999;
+  margin-top: 10px;
+  transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+}
+.slider-caption-box2 #bx-pager a span i {
+  margin-right: 7px;
+}
+.slider-caption-box2 #bx-pager a.active {
+  background: #ffffff;
+  color: #222222;
+}
+.slider-caption-box2 #bx-pager a.active img {
+  opacity: 1;
 }
 
 

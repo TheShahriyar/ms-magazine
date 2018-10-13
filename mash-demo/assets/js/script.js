@@ -127,16 +127,17 @@
             slideshow: false,
             itemWidth: 180,
             itemMargin: 5,
-            asNavFor: '#slider'
+            asNavFor: '#post-bottom-tab'
         });
          
-        $('#slider').flexslider({
+        $('#post-bottom-tab').flexslider({
             animation: "slide",
             controlNav: false,
             animationLoop: false,
             slideshow: false,
             sync: "#carousel"
         });
+
 
 
         /*-------------------------------------------------*/
@@ -179,6 +180,11 @@
                     });
                 }
             }
+
+
+            $('.slider-call').bxSlider({
+                pagerCustom: '#bx-pager'
+            });
 
         } catch(err) {
 
@@ -226,10 +232,10 @@
 
 
         // Video with player
-        var api_key = 'AIzaSyAsvJPKTArFviBbDntKU4sHxkl8fYrj1uM';
-        $('.RYPP').rypp( api_key, {
-            autoplay: true
-        });
+        // var api_key = 'AIzaSyAsvJPKTArFviBbDntKU4sHxkl8fYrj1uM';
+        // $('.RYPP').rypp( api_key, {
+        //     autoplay: true
+        // });
 
 
 
